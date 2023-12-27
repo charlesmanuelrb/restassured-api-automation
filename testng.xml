@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Pet Store Tests">
+
+    <test thread-count="5" name="Add Pet to the Store">
+        <classes>
+            <class name="addPet">
+                <methods>
+                    <include name="postAddPet"/>
+                </methods>
+            </class> <!-- addPets -->
+        </classes>
+    </test> <!-- Add Pet to the Store  -->
+
+    <test thread-count="5" name="Find Pet by Id">
+        <classes>
+            <class name="findPet">
+                <methods>
+                    <include name="getFindPet"/>
+                </methods>
+            </class> <!-- addPets -->
+        </classes>
+    </test> <!-- Find Pet by Id -->
+
+    <test thread-count="5" name="Adding Pet">
+    <classes>
+        <class name="updatePet">
+            <methods>
+                <include name="putModifyPet"/>
+            </methods>
+        </class> <!-- addPets -->
+    </classes>
+    </test> <!-- Modify Pet data by Id -->
+
+</suite> <!-- PetStore API Testing -->
+
