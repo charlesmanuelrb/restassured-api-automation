@@ -42,7 +42,7 @@ This will execute all the tests in the project.
 **To generate the Allure reports, execute the following command:**
 
 ```jsx
-cd [project-name]/target
+restassured-api-automation/target
 ```
 
 ```jsx
