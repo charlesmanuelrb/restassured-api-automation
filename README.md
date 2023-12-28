@@ -39,10 +39,10 @@ This will execute all the tests in the project.
 
 ## **Generating Allure reports:**
 
-**To generate the Allure reports, execute the following command:**
+**To generate the Allure reports, execute the following command from target directory:**
 
 ```jsx
-restassured-api-automation/target
+cd ./restassured-api-automation/target
 ```
 
 ```jsx
