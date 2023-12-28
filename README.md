@@ -1,4 +1,4 @@
-# REST API Automation with Java, Rest-Assured, TestNG, and Allure
+# REST API Automation, Rest-Assured, TestNG, and Allure
 
 ## PetStore Demo API
 
